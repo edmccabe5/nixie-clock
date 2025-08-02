@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 154.94 36.83) (size 33.02 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bacf794b-2dbe-4bb2-aad8-a2d032f6fb4a)
+    (property "Sheetname" "Power" (at 154.94 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 154.94 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Nixie_Clock"
+        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 34.29) (size 30.48 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dd785b04-b177-4b65-89fb-16bd08649dc7)
+    (property "Sheetname" "MCU and Clock" (at 97.79 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu_clock.kicad_sch" (at 97.79 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Nixie_Clock"
+        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 54.61 33.02) (size 21.59 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dfdd812d-deec-44b8-8feb-f0c128062d84)
+    (property "Sheetname" "Tubes" (at 54.61 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tubes.kicad_sch" (at 54.61 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Nixie_Clock"
+        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
