@@ -1,282 +1,680 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7)
-
-  (paper "USLedger")
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 76.2 62.865) (xy 84.455 62.865))
-    (stroke (width 0) (type default))
-    (uuid 00c2cdbc-2928-4553-9d06-0d663d6f1cba)
-  )
-  (wire (pts (xy 76.2 64.77) (xy 84.455 64.77))
-    (stroke (width 0) (type default))
-    (uuid 0191c6cd-daff-45fc-979c-d38e8f7c7d82)
-  )
-  (wire (pts (xy 76.2 68.58) (xy 84.455 68.58))
-    (stroke (width 0) (type default))
-    (uuid 04571c4c-91f9-4db9-8475-4bbb3c70a8d5)
-  )
-  (wire (pts (xy 76.2 60.96) (xy 84.455 60.96))
-    (stroke (width 0) (type default))
-    (uuid 27ef7c55-fd28-45d3-baed-d52d7529f63c)
-  )
-  (wire (pts (xy 76.2 74.295) (xy 84.455 74.295))
-    (stroke (width 0) (type default))
-    (uuid 2aadf145-7d6a-4092-bace-3a087de76a41)
-  )
-  (wire (pts (xy 76.2 78.105) (xy 84.455 78.105))
-    (stroke (width 0) (type default))
-    (uuid 2b327f92-416b-4988-a2a6-c22eedbdfd50)
-  )
-  (wire (pts (xy 76.2 81.915) (xy 84.455 81.915))
-    (stroke (width 0) (type default))
-    (uuid 352fc1ed-8c14-45b6-b2d4-6a4e3fd4e48b)
-  )
-  (wire (pts (xy 76.2 80.01) (xy 84.455 80.01))
-    (stroke (width 0) (type default))
-    (uuid 490458e9-068e-431d-8900-7c1fcef387ff)
-  )
-  (wire (pts (xy 76.2 66.675) (xy 84.455 66.675))
-    (stroke (width 0) (type default))
-    (uuid 50cfa15e-1d95-4dcb-ac79-c02701fca945)
-  )
-  (wire (pts (xy 76.2 48.895) (xy 84.455 48.895))
-    (stroke (width 0) (type default))
-    (uuid 63eabc15-d165-486f-8486-5635860adc8d)
-  )
-  (wire (pts (xy 76.2 50.8) (xy 84.455 50.8))
-    (stroke (width 0) (type default))
-    (uuid 659c97cb-cf59-472b-bae4-d1c23e0ed922)
-  )
-  (wire (pts (xy 76.2 76.2) (xy 84.455 76.2))
-    (stroke (width 0) (type default))
-    (uuid 71199b13-5cb6-4832-89fc-541cb106c7e8)
-  )
-  (wire (pts (xy 76.2 72.39) (xy 84.455 72.39))
-    (stroke (width 0) (type default))
-    (uuid 7947a6a6-554f-4e13-9dbb-496b92718be7)
-  )
-  (wire (pts (xy 76.2 56.515) (xy 84.455 56.515))
-    (stroke (width 0) (type default))
-    (uuid 86e983ae-32e0-49ee-935e-2eebaf27862b)
-  )
-  (wire (pts (xy 76.2 54.61) (xy 84.455 54.61))
-    (stroke (width 0) (type default))
-    (uuid 86eca2ed-f900-4293-ab26-969f78301dbd)
-  )
-  (wire (pts (xy 76.2 70.485) (xy 84.455 70.485))
-    (stroke (width 0) (type default))
-    (uuid 9a92db40-828e-42d5-9f91-7874835548e2)
-  )
-  (wire (pts (xy 76.2 46.99) (xy 84.455 46.99))
-    (stroke (width 0) (type default))
-    (uuid dfb47eea-1377-429d-b00c-3b5c6adff6e6)
-  )
-  (wire (pts (xy 76.2 52.705) (xy 84.455 52.705))
-    (stroke (width 0) (type default))
-    (uuid fe6d3e97-e72b-4a70-9f79-44ba44004988)
-  )
-
-  (sheet (at 154.94 36.83) (size 33.02 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bacf794b-2dbe-4bb2-aad8-a2d032f6fb4a)
-    (property "Sheetname" "Power" (at 154.94 36.1184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 154.94 56.4646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Nixie_Clock"
-        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 84.455 40.64) (size 30.48 43.18) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid dd785b04-b177-4b65-89fb-16bd08649dc7)
-    (property "Sheetname" "MCU and Clock" (at 84.455 39.9284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu_clock.kicad_sch" (at 84.455 84.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "4_CC_DRV" output (at 84.455 66.675 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 58e733f6-6a6c-40d4-8bdb-00cc512cff9e)
-    )
-    (pin "3_CC_DRV" output (at 84.455 64.77 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f3ac9276-2865-4fad-b58f-374363eeabf5)
-    )
-    (pin "5_CC_DRV" output (at 84.455 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ea0f4a27-1368-467d-83f8-6ae47a02284d)
-    )
-    (pin "6_CC_DRV" output (at 84.455 70.485 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f5e7fd34-f096-4888-a006-a49d1fa50aa6)
-    )
-    (pin "2_CC_DRV" output (at 84.455 62.865 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 23da5899-248b-4c60-bb48-69101e0db891)
-    )
-    (pin "1_CC_DRV" output (at 84.455 60.96 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0bf11eb9-be7f-4f96-af95-ce3ef0679de7)
-    )
-    (pin "7_CC_DRV" output (at 84.455 72.39 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d7debce1-74c0-4b03-a1ea-314b05b4ee5f)
-    )
-    (pin "8_CC_DRV" output (at 84.455 74.295 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 19d100ef-3dbd-4928-b710-c8e54f46a0c5)
-    )
-    (pin "9_CC_DRV" output (at 84.455 76.2 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2d941414-bdd9-4a35-91cf-7c70aaea2ece)
-    )
-    (pin "0_CC_DRV" output (at 84.455 78.105 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5ca06009-89bc-4c9d-82c0-b37e8a3d9986)
-    )
-    (pin "LC_CC_DRV" output (at 84.455 80.01 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5f8e5894-410c-4e5b-8b2e-da784c3f6625)
-    )
-    (pin "RC_CC_DRV" output (at 84.455 81.915 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9cdfe1dc-b1eb-4fe3-9327-c95a5e5ab1e8)
-    )
-    (pin "4_CA_DRV" output (at 84.455 52.705 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8a8541ab-997d-487d-974c-03058e927b4a)
-    )
-    (pin "3_CA_DRV" output (at 84.455 50.8 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1498aa94-11ab-4f65-9edb-d23d2132e6a5)
-    )
-    (pin "1_CA_DRV" output (at 84.455 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f24ce6e5-28db-491b-a4c3-b1f96ef29e64)
-    )
-    (pin "2_CA_DRV" output (at 84.455 48.895 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9d4485f4-2670-4734-8a3b-eccd157c7251)
-    )
-    (pin "5_CA_DRV" output (at 84.455 54.61 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 027cabc4-4703-43ec-ba0b-26db5d6fd995)
-    )
-    (pin "6_CA_DRV" output (at 84.455 56.515 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d87738c1-7e0a-4c96-b5f0-c2b8360db692)
-    )
-    (instances
-      (project "Nixie_Clock"
-        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 54.61 40.64) (size 21.59 43.18) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid dfdd812d-deec-44b8-8feb-f0c128062d84)
-    (property "Sheetname" "Tubes" (at 54.61 39.9284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "tubes.kicad_sch" (at 54.61 84.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "9_CC_DRV" input (at 76.2 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e618ebea-2f56-4ee5-9034-d259983c91fb)
-    )
-    (pin "0_CC_DRV" input (at 76.2 78.105 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9ee2e502-0cc7-46b0-8372-87e56ca0051d)
-    )
-    (pin "3_CC_DRV" input (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 75ed6a8f-4ea8-48e2-aa40-30f2d102cd4a)
-    )
-    (pin "7_CC_DRV" input (at 76.2 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c422d7ff-a76f-4136-9098-cdf7c7c81264)
-    )
-    (pin "8_CC_DRV" input (at 76.2 74.295 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 7581151c-cfc4-4b59-a752-138164655ddb)
-    )
-    (pin "1_CC_DRV" input (at 76.2 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fe83ec55-ed2e-4d63-b9cd-18fc11803b31)
-    )
-    (pin "2_CC_DRV" input (at 76.2 62.865 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 063073dc-2b4c-4ebc-ae66-00763ee85f15)
-    )
-    (pin "5_CC_DRV" input (at 76.2 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 9abae0fe-b5fd-496b-b5ed-4c210ad6897e)
-    )
-    (pin "6_CC_DRV" input (at 76.2 70.485 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid c46b9484-22bd-42a3-b4c8-b2f8aadae789)
-    )
-    (pin "RC_CC_DRV" input (at 76.2 81.915 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 61c0a7b4-d7c4-4793-96ac-e6473fd4e95b)
-    )
-    (pin "4_CC_DRV" input (at 76.2 66.675 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5b535597-8629-48ee-ae2f-81c5dd4bf803)
-    )
-    (pin "LC_CC_DRV" input (at 76.2 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 615e519e-8c45-4297-b8d7-3eef4bb17b46)
-    )
-    (pin "3_CA_DRV" input (at 76.2 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 852ef572-f43e-4ccc-82c6-4b0654469c61)
-    )
-    (pin "1_CA_DRV" input (at 76.2 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8ed26dfc-a56b-4a5f-bb13-50c21901582e)
-    )
-    (pin "2_CA_DRV" input (at 76.2 48.895 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a432daee-4697-4c86-8b27-843acc811a25)
-    )
-    (pin "4_CA_DRV" input (at 76.2 52.705 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 81853c9a-1c0b-4669-9ac6-48d781bff1ad)
-    )
-    (pin "5_CA_DRV" input (at 76.2 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 0232feac-1b41-44c2-a66d-fd1d1affb0dd)
-    )
-    (pin "6_CA_DRV" input (at 76.2 56.515 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3defe250-140c-4ec1-b315-2f1b4d18367e)
-    )
-    (instances
-      (project "Nixie_Clock"
-        (path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7")
+	(paper "USLedger")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.2 62.865) (xy 84.455 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c2cdbc-2928-4553-9d06-0d663d6f1cba")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 84.455 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0191c6cd-daff-45fc-979c-d38e8f7c7d82")
+	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 84.455 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04571c4c-91f9-4db9-8475-4bbb3c70a8d5")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 84.455 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ef7c55-fd28-45d3-baed-d52d7529f63c")
+	)
+	(wire
+		(pts
+			(xy 76.2 74.295) (xy 84.455 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aadf145-7d6a-4092-bace-3a087de76a41")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.105) (xy 84.455 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b327f92-416b-4988-a2a6-c22eedbdfd50")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.915) (xy 84.455 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352fc1ed-8c14-45b6-b2d4-6a4e3fd4e48b")
+	)
+	(wire
+		(pts
+			(xy 76.2 80.01) (xy 84.455 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490458e9-068e-431d-8900-7c1fcef387ff")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.675) (xy 84.455 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cfa15e-1d95-4dcb-ac79-c02701fca945")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.895) (xy 84.455 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63eabc15-d165-486f-8486-5635860adc8d")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 84.455 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659c97cb-cf59-472b-bae4-d1c23e0ed922")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 84.455 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71199b13-5cb6-4832-89fc-541cb106c7e8")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 84.455 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7947a6a6-554f-4e13-9dbb-496b92718be7")
+	)
+	(wire
+		(pts
+			(xy 76.2 56.515) (xy 84.455 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e983ae-32e0-49ee-935e-2eebaf27862b")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 84.455 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86eca2ed-f900-4293-ab26-969f78301dbd")
+	)
+	(wire
+		(pts
+			(xy 76.2 70.485) (xy 84.455 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a92db40-828e-42d5-9f91-7874835548e2")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 84.455 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb47eea-1377-429d-b00c-3b5c6adff6e6")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.705) (xy 84.455 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6d3e97-e72b-4a70-9f79-44ba44004988")
+	)
+	(sheet
+		(at 154.94 36.83)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bacf794b-2dbe-4bb2-aad8-a2d032f6fb4a")
+		(property "Sheetname" "Power"
+			(at 154.94 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 154.94 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nixie_Clock"
+				(path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 84.455 40.64)
+		(size 30.48 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd785b04-b177-4b65-89fb-16bd08649dc7")
+		(property "Sheetname" "MCU and Clock"
+			(at 84.455 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_clock.kicad_sch"
+			(at 84.455 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4_CC_DRV" output
+			(at 84.455 66.675 180)
+			(uuid "58e733f6-6a6c-40d4-8bdb-00cc512cff9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_CC_DRV" output
+			(at 84.455 64.77 180)
+			(uuid "f3ac9276-2865-4fad-b58f-374363eeabf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5_CC_DRV" output
+			(at 84.455 68.58 180)
+			(uuid "ea0f4a27-1368-467d-83f8-6ae47a02284d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6_CC_DRV" output
+			(at 84.455 70.485 180)
+			(uuid "f5e7fd34-f096-4888-a006-a49d1fa50aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_CC_DRV" output
+			(at 84.455 62.865 180)
+			(uuid "23da5899-248b-4c60-bb48-69101e0db891")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1_CC_DRV" output
+			(at 84.455 60.96 180)
+			(uuid "0bf11eb9-be7f-4f96-af95-ce3ef0679de7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "7_CC_DRV" output
+			(at 84.455 72.39 180)
+			(uuid "d7debce1-74c0-4b03-a1ea-314b05b4ee5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "8_CC_DRV" output
+			(at 84.455 74.295 180)
+			(uuid "19d100ef-3dbd-4928-b710-c8e54f46a0c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "9_CC_DRV" output
+			(at 84.455 76.2 180)
+			(uuid "2d941414-bdd9-4a35-91cf-7c70aaea2ece")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "0_CC_DRV" output
+			(at 84.455 78.105 180)
+			(uuid "5ca06009-89bc-4c9d-82c0-b37e8a3d9986")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LC_CC_DRV" output
+			(at 84.455 80.01 180)
+			(uuid "5f8e5894-410c-4e5b-8b2e-da784c3f6625")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RC_CC_DRV" output
+			(at 84.455 81.915 180)
+			(uuid "9cdfe1dc-b1eb-4fe3-9327-c95a5e5ab1e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4_CA_DRV" output
+			(at 84.455 52.705 180)
+			(uuid "8a8541ab-997d-487d-974c-03058e927b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_CA_DRV" output
+			(at 84.455 50.8 180)
+			(uuid "1498aa94-11ab-4f65-9edb-d23d2132e6a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1_CA_DRV" output
+			(at 84.455 46.99 180)
+			(uuid "f24ce6e5-28db-491b-a4c3-b1f96ef29e64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_CA_DRV" output
+			(at 84.455 48.895 180)
+			(uuid "9d4485f4-2670-4734-8a3b-eccd157c7251")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5_CA_DRV" output
+			(at 84.455 54.61 180)
+			(uuid "027cabc4-4703-43ec-ba0b-26db5d6fd995")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6_CA_DRV" output
+			(at 84.455 56.515 180)
+			(uuid "d87738c1-7e0a-4c96-b5f0-c2b8360db692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Nixie_Clock"
+				(path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 40.64)
+		(size 21.59 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfdd812d-deec-44b8-8feb-f0c128062d84")
+		(property "Sheetname" "Tubes"
+			(at 54.61 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tubes.kicad_sch"
+			(at 54.61 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "9_CC_DRV" input
+			(at 76.2 76.2 0)
+			(uuid "e618ebea-2f56-4ee5-9034-d259983c91fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0_CC_DRV" input
+			(at 76.2 78.105 0)
+			(uuid "9ee2e502-0cc7-46b0-8372-87e56ca0051d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3_CC_DRV" input
+			(at 76.2 64.77 0)
+			(uuid "75ed6a8f-4ea8-48e2-aa40-30f2d102cd4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "7_CC_DRV" input
+			(at 76.2 72.39 0)
+			(uuid "c422d7ff-a76f-4136-9098-cdf7c7c81264")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "8_CC_DRV" input
+			(at 76.2 74.295 0)
+			(uuid "7581151c-cfc4-4b59-a752-138164655ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1_CC_DRV" input
+			(at 76.2 60.96 0)
+			(uuid "fe83ec55-ed2e-4d63-b9cd-18fc11803b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2_CC_DRV" input
+			(at 76.2 62.865 0)
+			(uuid "063073dc-2b4c-4ebc-ae66-00763ee85f15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5_CC_DRV" input
+			(at 76.2 68.58 0)
+			(uuid "9abae0fe-b5fd-496b-b5ed-4c210ad6897e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6_CC_DRV" input
+			(at 76.2 70.485 0)
+			(uuid "c46b9484-22bd-42a3-b4c8-b2f8aadae789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RC_CC_DRV" input
+			(at 76.2 81.915 0)
+			(uuid "61c0a7b4-d7c4-4793-96ac-e6473fd4e95b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4_CC_DRV" input
+			(at 76.2 66.675 0)
+			(uuid "5b535597-8629-48ee-ae2f-81c5dd4bf803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LC_CC_DRV" input
+			(at 76.2 80.01 0)
+			(uuid "615e519e-8c45-4297-b8d7-3eef4bb17b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3_CA_DRV" input
+			(at 76.2 50.8 0)
+			(uuid "852ef572-f43e-4ccc-82c6-4b0654469c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1_CA_DRV" input
+			(at 76.2 46.99 0)
+			(uuid "8ed26dfc-a56b-4a5f-bb13-50c21901582e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2_CA_DRV" input
+			(at 76.2 48.895 0)
+			(uuid "a432daee-4697-4c86-8b27-843acc811a25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4_CA_DRV" input
+			(at 76.2 52.705 0)
+			(uuid "81853c9a-1c0b-4669-9ac6-48d781bff1ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5_CA_DRV" input
+			(at 76.2 54.61 0)
+			(uuid "0232feac-1b41-44c2-a66d-fd1d1affb0dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "6_CA_DRV" input
+			(at 76.2 56.515 0)
+			(uuid "3defe250-140c-4ec1-b315-2f1b4d18367e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Nixie_Clock"
+				(path "/3ed0a7a2-efbd-4fe1-bc12-48e60b185ca7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
